@@ -1,3 +1,299 @@
+@import url("https://use.typekit.net/kvx8bhm.css font-family: mr-darcy, sans-serif;font-weight: 600;font-style: normal;");
+
+@import url("https://use.typekit.net/kvx8bhm.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+p {
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
 body {
-    background: white;
+  margin: 0;
+  padding: 0;
+  font-family: century-gothic, sans-serif;
+  background: #aa95bf;
+  color: #262223;
+}
+
+h1 {
+  font-family: mr-darcy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #262223;
+  text-align: center;
+  padding: 25px;
+}
+
+h2 {
+  font-family: mr-darcy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #262223;
+  text-align: center;
+}
+
+h3 {
+  font-family: mr-darcy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #262223;
+  text-align: center;
+}
+
+/* Simple Grid - 12 columns 60/20 */
+
+.columns_1 {
+  width: 940px;
+  float: left;
+}
+
+.columns_2 {
+  width: 460px;
+  float: left;
+  margin-right: 20px;
+}
+
+.columns_2:last-of-type {
+  margin-right: 0;
+}
+
+.columns_3 {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.columns_3:last-of-type {
+  margin-right: 0;
+}
+
+.columns_4 {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.columns_4:last-of-type {
+  margin-right: 0;
+}
+
+.columns_6 {
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+}
+
+.columns_6:last-of-type {
+  margin-right: 0;
+}
+
+.columns_12 {
+  width: 60px;
+  float: left;
+  margin-right: 20px;
+}
+
+.columns_12:last-of-type {
+  margin-right: 0;
+}
+
+/* Misc HTML*/
+
+.align-right {
+  float: right;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.align-left {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.align-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 940px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.row {
+  width: 100%;
+  float: left;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.section-head {
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.section-copy {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*HEADER*/
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #262223;
+  font-family: mr-darcy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main-header {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main-header h1 {
+  font-size: 50px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #262223;
+}
+
+header {
+  padding: 10px;
+  background-color: #aa95bf;
+}
+
+/*NAVIGATION*/
+
+nav {
+  height: 50px;
+  background: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0 20;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+  transition: background 1s;
+}
+
+nav a:hover {
+  background: #aa95bf; 
+  
+  /*BUTTONS*/
+  
+  
+
+.solid-btn:hover {
+	background-color: #d84961;
+ 
+
+
+
+/*ORIGIN*/
+
+.origin {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/*SAMHAIN*/
+
+.samhain {
+  text-align: left;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/*CHRISTIANITY*/
+
+.christianity {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/*TRICK OR TREAT*/
+
+.trickortreat {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/*COMING TO AMERICA*/
+
+.america {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/*MODERN DAY*/
+
+.modern {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #5e4973;
 }
