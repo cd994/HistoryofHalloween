@@ -220,18 +220,38 @@ nav a {
   padding: 0 20px;
   line-height: 50px;
   text-transform: uppercase;
-  transition: background 1s;
+  transition: 1s;
 }
 
 nav a:hover {
   background: #aa95bf; 
+}
   
-  /*BUTTONS*/
+
+
+
+/*BUTTONS*/
   
-  
+.solid-btn {
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #f2687f;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
 
 .solid-btn:hover {
 	background-color: #d84961;
+  }
+
+  
+  
+
+
  
 
 
