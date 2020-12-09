@@ -8,6 +8,30 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  height: 100%;
+}
+
+/* PARALLAX*/
+
+.parallax {
+  height: 80vh;
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://assets.codepen.io/4988484/242101178.jpg");
+}
+
+.image-two {
+  background: url("https://assets.codepen.io/4988484/1003210.jpg");
+}
 /* Typography */
 
 p {
@@ -21,6 +45,11 @@ body {
   font-family: century-gothic, sans-serif;
   background: #aa95bf;
   color: #262223;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
 }
 
 h1 {
@@ -224,37 +253,40 @@ nav a {
 }
 
 nav a:hover {
-  background: #aa95bf; 
+  background: #aa95bf;
 }
-  
-
-
 
 /*BUTTONS*/
-  
+
 .solid-btn {
-	display: inline-block;
-	padding: 15px 25px;
-	background-color: #f2687f;
-	font-size: 20px;
-	border-radius: 30px;
-	margin-bottom: 30px;
-	color: #000000;
-	text-decoration: none;
-	cursor: pointer;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #5e4973;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .solid-btn:hover {
-	background-color: #d84961;
-  }
+  background-color: #40383e;
+}
 
-  
-  
+html {
+  box-sizing: border-box;
+}
 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
- 
-
-
+img {
+  max-width: 100%;
+  padding: 1rem;
+}
 
 /*ORIGIN*/
 
