@@ -15,24 +15,51 @@ html {
 
 /* PARALLAX*/
 
+.image-one {
+  background-image: url("https://assets.codepen.io/4988484/242101178.jpg");
+}
+
+.image-two {
+  background-image: url("https://assets.codepen.io/4988484/Halloween.jpg");
+}
+
+.image-three {
+  background: url("https://assets.codepen.io/4988484/a69da314-d21a-4a24-a3bf-35169c59169c.jpg");
+}
+
+.image-four {
+  background: url("https://assets.codepen.io/4988484/Screen+Shot+2020-11-20+at+11.07.04+AM.jpg");
+}
+
+.image-five {
+  background-image: url("https://assets.codepen.io/4988484/public-domain-vintage-halloween-postcard-row-of-jack-o-lanterns.jpg");
+}
+
+.image-six {
+  background: url("https://assets.codepen.io/4988484/VHTVT.jpg");
+}
+
 .parallax {
   height: 80vh;
-
   /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.image-one {
-  background-image: url("https://assets.codepen.io/4988484/242101178.jpg");
-}
-
-.image-two {
-  background: url("https://assets.codepen.io/4988484/1003210.jpg");
-}
 /* Typography */
+
+.flex-row {
+  display: flex;
+}
+
+hr {
+  height: 1px;
+  border-width: 0;
+  color: #262223;
+  background-color: #262223;
+  margin-bottom: 25px;
+}
 
 p {
   font-size: 1em;
@@ -45,11 +72,6 @@ body {
   font-family: century-gothic, sans-serif;
   background: #aa95bf;
   color: #262223;
-}
-
-hr {
-  width: 100%;
-  height: 1px;
 }
 
 h1 {
@@ -81,56 +103,14 @@ h3 {
 
 .columns_1 {
   width: 940px;
-  float: left;
 }
 
 .columns_2 {
   width: 460px;
   float: left;
-  margin-right: 20px;
 }
 
 .columns_2:last-of-type {
-  margin-right: 0;
-}
-
-.columns_3 {
-  width: 300px;
-  float: left;
-  margin-right: 20px;
-}
-
-.columns_3:last-of-type {
-  margin-right: 0;
-}
-
-.columns_4 {
-  width: 220px;
-  float: left;
-  margin-right: 20px;
-}
-
-.columns_4:last-of-type {
-  margin-right: 0;
-}
-
-.columns_6 {
-  width: 140px;
-  float: left;
-  margin-right: 20px;
-}
-
-.columns_6:last-of-type {
-  margin-right: 0;
-}
-
-.columns_12 {
-  width: 60px;
-  float: left;
-  margin-right: 20px;
-}
-
-.columns_12:last-of-type {
   margin-right: 0;
 }
 
@@ -168,7 +148,7 @@ img {
 
 .row {
   width: 100%;
-  float: left;
+
   display: block;
   padding-bottom: 20px;
 }
@@ -185,12 +165,6 @@ img {
 }
 
 /*HEADER*/
-
-.main-header h1 {
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  line-height: 1.2;
-}
 
 .main-header h1 span {
   color: #262223;
@@ -213,10 +187,6 @@ img {
   margin-top: 2rem;
   margin-bottom: 2rem;
   line-height: 1.2;
-}
-
-.main-header h1 span {
-  color: #262223;
 }
 
 header {
@@ -264,7 +234,7 @@ nav a:hover {
   background-color: #5e4973;
   font-size: 20px;
   border-radius: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   color: #000000;
   text-decoration: none;
   cursor: pointer;
@@ -288,58 +258,10 @@ img {
   padding: 1rem;
 }
 
-/*ORIGIN*/
-
-.origin {
+.section-title {
   text-align: center;
-  padding: 25px;
+  padding: 0;
   margin-bottom: 50px;
-  font-size: 16px;
-}
-
-/*SAMHAIN*/
-
-.samhain {
-  text-align: left;
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 16px;
-}
-
-/*CHRISTIANITY*/
-
-.christianity {
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 16px;
-}
-
-/*TRICK OR TREAT*/
-
-.trickortreat {
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 16px;
-}
-
-/*COMING TO AMERICA*/
-
-.america {
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 16px;
-}
-
-/*MODERN DAY*/
-
-.modern {
-  text-align: center;
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 16px;
 }
 
 /* Footer */
